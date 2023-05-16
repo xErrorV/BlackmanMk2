@@ -3,12 +3,8 @@ import pygame
 from PIL import Image
 
 
-set = {
-    "heavy": ["assets/heavy.gif", "assets/heavy.ogg"],
-    "giganiga": ["assets/black.gif", "assets/black.ogg"]
-}
-image_path = set["heavy"][0]
-music_path = set["heavy"][1]
+image_path = "assets/heavy.gif"
+music_path = "assets/heavy.ogg"
 
 def main():
     pygame.init()
